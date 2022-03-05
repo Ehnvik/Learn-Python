@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount',
     'home',
     'products',
+    'bag',
 ]
 
 MIDDLEWARE = [
@@ -101,8 +102,6 @@ LOGIN_REDIRECT_URL = '/'
 
 
 WSGI_APPLICATION = 'boutique_ado.wsgi.application'
-
-
 
 
 # Database
